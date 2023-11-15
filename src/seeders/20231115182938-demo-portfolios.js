@@ -1,0 +1,24 @@
+"use strict";
+
+module.exports = {
+  up: async (queryInterface, Sequelize) => {
+    try {
+      await queryInterface.bulkInsert(
+        "Portfolios",
+        [
+          { userId: 1 },
+          { userId: 2 },
+          { userId: 3 },
+          { userId: 4 },
+          { userId: 5 },
+        ],
+        {}
+      );
+    } catch (error) {
+      console.error("Error while seeding portfolios:", error);
+    }
+  },
+  down: async (queryInterface, Sequelize) => {
+    await queryInterface.bulkDelete("Portfolios", null, {});
+  },
+};
