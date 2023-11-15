@@ -27,7 +27,7 @@ Follow these steps to set up the project:
 
 1. Clone the repository:
    ```bash
-   git clone [Your Repository URL]
+   git clone https://github.com/egebagcivan/evaCase.git
 2. Install NPM packages:
    ```bash
    npm install
