@@ -65,7 +65,7 @@ Here's how you can use the API to perform trading operations:
   ```bash
   {
   "portfolioId": 1,
-  "symbol": "XYZ",
+  "symbol": "EGE",
   "quantity": 5
   }
 - Description: This endpoint allows users to sell shares.
